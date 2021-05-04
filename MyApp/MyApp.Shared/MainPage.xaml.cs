@@ -36,8 +36,6 @@ namespace MyApp
         public MainPage()
         {
             this.InitializeComponent();
-            WidthSlider.Value = 400;
-            HeightSlider.Value = 400;
             //How to build an Elipse
             var ellipse1 = new Ellipse();
             ellipse1.Fill = new SolidColorBrush(Windows.UI.Colors.SteelBlue);
