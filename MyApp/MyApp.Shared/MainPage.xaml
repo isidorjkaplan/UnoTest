@@ -8,10 +8,6 @@
     mc:Ignorable="d">
 
 		<StackPanel Name='layoutRoot'>
-    <TextBlock x:Text="Sample Uno Program!"
-                Margin="20"
-                FontSize="30" />
-
     <Slider x:Name="WidthSlider" Header="Width" Width="200" Minimum="30" Maximum="400" Value="100"
         ValueChanged="{x:Bind OnSlider}"/>
     <Slider x:Name="HeightSlider" Header="Height" Width="200" Minimum="30" Maximum="400" Value="100"
