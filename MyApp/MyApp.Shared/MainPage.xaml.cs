@@ -36,19 +36,20 @@ namespace MyApp
         public MainPage()
         {
             this.InitializeComponent();
-
+            WidthSlider.Value = 400;
+            HeightSlider.Value = 400;
             //How to build an Elipse
             var ellipse1 = new Ellipse();
             ellipse1.Fill = new SolidColorBrush(Windows.UI.Colors.SteelBlue);
-            ellipse1.Width = 200;
-            ellipse1.Height = 200;
+            ellipse1.Width = WidthSlider.Value;
+            ellipse1.Height =  HeightSlider.Value;
             layoutRoot.Children.Add(ellipse1);
         }
         private void OnClick()
         {
             //var dt = DateTime.Now.ToString();
             //txt.Text = dt;
-            var ellipse = ((Ellipse)layoutRoot.Children[layoutRoot.Children.Count - 1]).Width/=1.5;
+            //var ellipse = ((Ellipse)layoutRoot.Children[layoutRoot.Children.Count - 1]).Width*1.5;
         }
 
         private void OnSlider()
@@ -57,7 +58,7 @@ namespace MyApp
             //txt.Text = dt;
             var ellipse = ((Ellipse)layoutRoot.Children[layoutRoot.Children.Count - 1]);
             ellipse.Width = WidthSlider.Value;
-            
+            ellipse.Height = HeightSlider.Value;
         }
     }
 }
