@@ -1,0 +1,1109 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <RestoreSuccess Condition=" '$(RestoreSuccess)' == '' ">True</RestoreSuccess>
+    <RestoreTool Condition=" '$(RestoreTool)' == '' ">NuGet</RestoreTool>
+    <ProjectAssetsFile Condition=" '$(ProjectAssetsFile)' == '' ">$(MSBuildThisFileDirectory)project.assets.json</ProjectAssetsFile>
+    <NuGetPackageRoot Condition=" '$(NuGetPackageRoot)' == '' ">$(UserProfile)\.nuget\packages\</NuGetPackageRoot>
+    <NuGetPackageFolders Condition=" '$(NuGetPackageFolders)' == '' ">C:\Users\ikaplan\.nuget\packages\;C:\Program Files\dotnet\sdk\NuGetFallbackFolder</NuGetPackageFolders>
+    <NuGetProjectStyle Condition=" '$(NuGetProjectStyle)' == '' ">PackageReference</NuGetProjectStyle>
+    <NuGetToolVersion Condition=" '$(NuGetToolVersion)' == '' ">5.9.1</NuGetToolVersion>
+  </PropertyGroup>
+  <ItemGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <SourceRoot Include="C:\Users\ikaplan\.nuget\packages\" />
+    <SourceRoot Include="C:\Program Files\dotnet\sdk\NuGetFallbackFolder\" />
+  </ItemGroup>
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+  </PropertyGroup>
+  <ItemGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <None Include="$(NuGetPackageRoot)helixtoolkit.uwp\2.16.1\contentFiles\any\any\HelixToolkit.UWP\Resources\arial.dds" Condition="Exists('$(NuGetPackageRoot)helixtoolkit.uwp\2.16.1\contentFiles\any\any\HelixToolkit.UWP\Resources\arial.dds')">
+      <NuGetPackageId>HelixToolkit.UWP</NuGetPackageId>
+      <NuGetPackageVersion>2.16.1</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>HelixToolkit.UWP\Resources\arial.dds</TargetPath>
+      <DestinationSubDirectory>HelixToolkit.UWP\Resources\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>HelixToolkit.UWP\Resources\arial.dds</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)helixtoolkit.uwp\2.16.1\contentFiles\any\any\HelixToolkit.UWP\Resources\arial.fnt" Condition="Exists('$(NuGetPackageRoot)helixtoolkit.uwp\2.16.1\contentFiles\any\any\HelixToolkit.UWP\Resources\arial.fnt')">
+      <NuGetPackageId>HelixToolkit.UWP</NuGetPackageId>
+      <NuGetPackageVersion>2.16.1</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>HelixToolkit.UWP\Resources\arial.fnt</TargetPath>
+      <DestinationSubDirectory>HelixToolkit.UWP\Resources\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>HelixToolkit.UWP\Resources\arial.fnt</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)helixtoolkit.uwp\2.16.1\contentFiles\any\any\HelixToolkit.UWP\Resources\csParticleInsert.cso" Condition="Exists('$(NuGetPackageRoot)helixtoolkit.uwp\2.16.1\contentFiles\any\any\HelixToolkit.UWP\Resources\csParticleInsert.cso')">
+      <NuGetPackageId>HelixToolkit.UWP</NuGetPackageId>
+      <NuGetPackageVersion>2.16.1</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>HelixToolkit.UWP\Resources\csParticleInsert.cso</TargetPath>
+      <DestinationSubDirectory>HelixToolkit.UWP\Resources\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>HelixToolkit.UWP\Resources\csParticleInsert.cso</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)helixtoolkit.uwp\2.16.1\contentFiles\any\any\HelixToolkit.UWP\Resources\csParticleUpdate.cso" Condition="Exists('$(NuGetPackageRoot)helixtoolkit.uwp\2.16.1\contentFiles\any\any\HelixToolkit.UWP\Resources\csParticleUpdate.cso')">
+      <NuGetPackageId>HelixToolkit.UWP</NuGetPackageId>
+      <NuGetPackageVersion>2.16.1</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>HelixToolkit.UWP\Resources\csParticleUpdate.cso</TargetPath>
+      <DestinationSubDirectory>HelixToolkit.UWP\Resources\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>HelixToolkit.UWP\Resources\csParticleUpdate.cso</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)helixtoolkit.uwp\2.16.1\contentFiles\any\any\HelixToolkit.UWP\Resources\dsMeshTriTessellation.cso" Condition="Exists('$(NuGetPackageRoot)helixtoolkit.uwp\2.16.1\contentFiles\any\any\HelixToolkit.UWP\Resources\dsMeshTriTessellation.cso')">
+      <NuGetPackageId>HelixToolkit.UWP</NuGetPackageId>
+      <NuGetPackageVersion>2.16.1</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>HelixToolkit.UWP\Resources\dsMeshTriTessellation.cso</TargetPath>
+      <DestinationSubDirectory>HelixToolkit.UWP\Resources\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>HelixToolkit.UWP\Resources\dsMeshTriTessellation.cso</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)helixtoolkit.uwp\2.16.1\contentFiles\any\any\HelixToolkit.UWP\Resources\gsBillboard.cso" Condition="Exists('$(NuGetPackageRoot)helixtoolkit.uwp\2.16.1\contentFiles\any\any\HelixToolkit.UWP\Resources\gsBillboard.cso')">
+      <NuGetPackageId>HelixToolkit.UWP</NuGetPackageId>
+      <NuGetPackageVersion>2.16.1</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>HelixToolkit.UWP\Resources\gsBillboard.cso</TargetPath>
+      <DestinationSubDirectory>HelixToolkit.UWP\Resources\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>HelixToolkit.UWP\Resources\gsBillboard.cso</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)helixtoolkit.uwp\2.16.1\contentFiles\any\any\HelixToolkit.UWP\Resources\gsLine.cso" Condition="Exists('$(NuGetPackageRoot)helixtoolkit.uwp\2.16.1\contentFiles\any\any\HelixToolkit.UWP\Resources\gsLine.cso')">
+      <NuGetPackageId>HelixToolkit.UWP</NuGetPackageId>
+      <NuGetPackageVersion>2.16.1</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>HelixToolkit.UWP\Resources\gsLine.cso</TargetPath>
+      <DestinationSubDirectory>HelixToolkit.UWP\Resources\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>HelixToolkit.UWP\Resources\gsLine.cso</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)helixtoolkit.uwp\2.16.1\contentFiles\any\any\HelixToolkit.UWP\Resources\gsLineArrowHead.cso" Condition="Exists('$(NuGetPackageRoot)helixtoolkit.uwp\2.16.1\contentFiles\any\any\HelixToolkit.UWP\Resources\gsLineArrowHead.cso')">
+      <NuGetPackageId>HelixToolkit.UWP</NuGetPackageId>
+      <NuGetPackageVersion>2.16.1</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>HelixToolkit.UWP\Resources\gsLineArrowHead.cso</TargetPath>
+      <DestinationSubDirectory>HelixToolkit.UWP\Resources\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>HelixToolkit.UWP\Resources\gsLineArrowHead.cso</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)helixtoolkit.uwp\2.16.1\contentFiles\any\any\HelixToolkit.UWP\Resources\gsLineArrowHeadTail.cso" Condition="Exists('$(NuGetPackageRoot)helixtoolkit.uwp\2.16.1\contentFiles\any\any\HelixToolkit.UWP\Resources\gsLineArrowHeadTail.cso')">
+      <NuGetPackageId>HelixToolkit.UWP</NuGetPackageId>
+      <NuGetPackageVersion>2.16.1</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>HelixToolkit.UWP\Resources\gsLineArrowHeadTail.cso</TargetPath>
+      <DestinationSubDirectory>HelixToolkit.UWP\Resources\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>HelixToolkit.UWP\Resources\gsLineArrowHeadTail.cso</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)helixtoolkit.uwp\2.16.1\contentFiles\any\any\HelixToolkit.UWP\Resources\gsMeshNormalVector.cso" Condition="Exists('$(NuGetPackageRoot)helixtoolkit.uwp\2.16.1\contentFiles\any\any\HelixToolkit.UWP\Resources\gsMeshNormalVector.cso')">
+      <NuGetPackageId>HelixToolkit.UWP</NuGetPackageId>
+      <NuGetPackageVersion>2.16.1</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>HelixToolkit.UWP\Resources\gsMeshNormalVector.cso</TargetPath>
+      <DestinationSubDirectory>HelixToolkit.UWP\Resources\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>HelixToolkit.UWP\Resources\gsMeshNormalVector.cso</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)helixtoolkit.uwp\2.16.1\contentFiles\any\any\HelixToolkit.UWP\Resources\gsMeshSkinnedOut.cso" Condition="Exists('$(NuGetPackageRoot)helixtoolkit.uwp\2.16.1\contentFiles\any\any\HelixToolkit.UWP\Resources\gsMeshSkinnedOut.cso')">
+      <NuGetPackageId>HelixToolkit.UWP</NuGetPackageId>
+      <NuGetPackageVersion>2.16.1</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>HelixToolkit.UWP\Resources\gsMeshSkinnedOut.cso</TargetPath>
+      <DestinationSubDirectory>HelixToolkit.UWP\Resources\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>HelixToolkit.UWP\Resources\gsMeshSkinnedOut.cso</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)helixtoolkit.uwp\2.16.1\contentFiles\any\any\HelixToolkit.UWP\Resources\gsParticle.cso" Condition="Exists('$(NuGetPackageRoot)helixtoolkit.uwp\2.16.1\contentFiles\any\any\HelixToolkit.UWP\Resources\gsParticle.cso')">
+      <NuGetPackageId>HelixToolkit.UWP</NuGetPackageId>
+      <NuGetPackageVersion>2.16.1</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>HelixToolkit.UWP\Resources\gsParticle.cso</TargetPath>
+      <DestinationSubDirectory>HelixToolkit.UWP\Resources\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>HelixToolkit.UWP\Resources\gsParticle.cso</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)helixtoolkit.uwp\2.16.1\contentFiles\any\any\HelixToolkit.UWP\Resources\gsPoint.cso" Condition="Exists('$(NuGetPackageRoot)helixtoolkit.uwp\2.16.1\contentFiles\any\any\HelixToolkit.UWP\Resources\gsPoint.cso')">
+      <NuGetPackageId>HelixToolkit.UWP</NuGetPackageId>
+      <NuGetPackageVersion>2.16.1</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>HelixToolkit.UWP\Resources\gsPoint.cso</TargetPath>
+      <DestinationSubDirectory>HelixToolkit.UWP\Resources\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>HelixToolkit.UWP\Resources\gsPoint.cso</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)helixtoolkit.uwp\2.16.1\contentFiles\any\any\HelixToolkit.UWP\Resources\hsMeshTriTessellation.cso" Condition="Exists('$(NuGetPackageRoot)helixtoolkit.uwp\2.16.1\contentFiles\any\any\HelixToolkit.UWP\Resources\hsMeshTriTessellation.cso')">
+      <NuGetPackageId>HelixToolkit.UWP</NuGetPackageId>
+      <NuGetPackageVersion>2.16.1</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>HelixToolkit.UWP\Resources\hsMeshTriTessellation.cso</TargetPath>
+      <DestinationSubDirectory>HelixToolkit.UWP\Resources\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>HelixToolkit.UWP\Resources\hsMeshTriTessellation.cso</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)helixtoolkit.uwp\2.16.1\contentFiles\any\any\HelixToolkit.UWP\Resources\psBillboardText.cso" Condition="Exists('$(NuGetPackageRoot)helixtoolkit.uwp\2.16.1\contentFiles\any\any\HelixToolkit.UWP\Resources\psBillboardText.cso')">
+      <NuGetPackageId>HelixToolkit.UWP</NuGetPackageId>
+      <NuGetPackageVersion>2.16.1</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>HelixToolkit.UWP\Resources\psBillboardText.cso</TargetPath>
+      <DestinationSubDirectory>HelixToolkit.UWP\Resources\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>HelixToolkit.UWP\Resources\psBillboardText.cso</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)helixtoolkit.uwp\2.16.1\contentFiles\any\any\HelixToolkit.UWP\Resources\psBillboardTextOIT.cso" Condition="Exists('$(NuGetPackageRoot)helixtoolkit.uwp\2.16.1\contentFiles\any\any\HelixToolkit.UWP\Resources\psBillboardTextOIT.cso')">
+      <NuGetPackageId>HelixToolkit.UWP</NuGetPackageId>
+      <NuGetPackageVersion>2.16.1</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>HelixToolkit.UWP\Resources\psBillboardTextOIT.cso</TargetPath>
+      <DestinationSubDirectory>HelixToolkit.UWP\Resources\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>HelixToolkit.UWP\Resources\psBillboardTextOIT.cso</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)helixtoolkit.uwp\2.16.1\contentFiles\any\any\HelixToolkit.UWP\Resources\psColor.cso" Condition="Exists('$(NuGetPackageRoot)helixtoolkit.uwp\2.16.1\contentFiles\any\any\HelixToolkit.UWP\Resources\psColor.cso')">
+      <NuGetPackageId>HelixToolkit.UWP</NuGetPackageId>
+      <NuGetPackageVersion>2.16.1</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>HelixToolkit.UWP\Resources\psColor.cso</TargetPath>
+      <DestinationSubDirectory>HelixToolkit.UWP\Resources\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>HelixToolkit.UWP\Resources\psColor.cso</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)helixtoolkit.uwp\2.16.1\contentFiles\any\any\HelixToolkit.UWP\Resources\psDepthStencilOnly.cso" Condition="Exists('$(NuGetPackageRoot)helixtoolkit.uwp\2.16.1\contentFiles\any\any\HelixToolkit.UWP\Resources\psDepthStencilOnly.cso')">
+      <NuGetPackageId>HelixToolkit.UWP</NuGetPackageId>
+      <NuGetPackageVersion>2.16.1</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>HelixToolkit.UWP\Resources\psDepthStencilOnly.cso</TargetPath>
+      <DestinationSubDirectory>HelixToolkit.UWP\Resources\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>HelixToolkit.UWP\Resources\psDepthStencilOnly.cso</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)helixtoolkit.uwp\2.16.1\contentFiles\any\any\HelixToolkit.UWP\Resources\psDiffuseMap.cso" Condition="Exists('$(NuGetPackageRoot)helixtoolkit.uwp\2.16.1\contentFiles\any\any\HelixToolkit.UWP\Resources\psDiffuseMap.cso')">
+      <NuGetPackageId>HelixToolkit.UWP</NuGetPackageId>
+      <NuGetPackageVersion>2.16.1</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>HelixToolkit.UWP\Resources\psDiffuseMap.cso</TargetPath>
+      <DestinationSubDirectory>HelixToolkit.UWP\Resources\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>HelixToolkit.UWP\Resources\psDiffuseMap.cso</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)helixtoolkit.uwp\2.16.1\contentFiles\any\any\HelixToolkit.UWP\Resources\psEffectBloomBlurHorizontal.cso" Condition="Exists('$(NuGetPackageRoot)helixtoolkit.uwp\2.16.1\contentFiles\any\any\HelixToolkit.UWP\Resources\psEffectBloomBlurHorizontal.cso')">
+      <NuGetPackageId>HelixToolkit.UWP</NuGetPackageId>
+      <NuGetPackageVersion>2.16.1</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>HelixToolkit.UWP\Resources\psEffectBloomBlurHorizontal.cso</TargetPath>
+      <DestinationSubDirectory>HelixToolkit.UWP\Resources\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>HelixToolkit.UWP\Resources\psEffectBloomBlurHorizontal.cso</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)helixtoolkit.uwp\2.16.1\contentFiles\any\any\HelixToolkit.UWP\Resources\psEffectBloomBlurVertical.cso" Condition="Exists('$(NuGetPackageRoot)helixtoolkit.uwp\2.16.1\contentFiles\any\any\HelixToolkit.UWP\Resources\psEffectBloomBlurVertical.cso')">
+      <NuGetPackageId>HelixToolkit.UWP</NuGetPackageId>
+      <NuGetPackageVersion>2.16.1</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>HelixToolkit.UWP\Resources\psEffectBloomBlurVertical.cso</TargetPath>
+      <DestinationSubDirectory>HelixToolkit.UWP\Resources\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>HelixToolkit.UWP\Resources\psEffectBloomBlurVertical.cso</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)helixtoolkit.uwp\2.16.1\contentFiles\any\any\HelixToolkit.UWP\Resources\psEffectBloomCombine.cso" Condition="Exists('$(NuGetPackageRoot)helixtoolkit.uwp\2.16.1\contentFiles\any\any\HelixToolkit.UWP\Resources\psEffectBloomCombine.cso')">
+      <NuGetPackageId>HelixToolkit.UWP</NuGetPackageId>
+      <NuGetPackageVersion>2.16.1</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>HelixToolkit.UWP\Resources\psEffectBloomCombine.cso</TargetPath>
+      <DestinationSubDirectory>HelixToolkit.UWP\Resources\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>HelixToolkit.UWP\Resources\psEffectBloomCombine.cso</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)helixtoolkit.uwp\2.16.1\contentFiles\any\any\HelixToolkit.UWP\Resources\psEffectBloomExtract.cso" Condition="Exists('$(NuGetPackageRoot)helixtoolkit.uwp\2.16.1\contentFiles\any\any\HelixToolkit.UWP\Resources\psEffectBloomExtract.cso')">
+      <NuGetPackageId>HelixToolkit.UWP</NuGetPackageId>
+      <NuGetPackageVersion>2.16.1</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>HelixToolkit.UWP\Resources\psEffectBloomExtract.cso</TargetPath>
+      <DestinationSubDirectory>HelixToolkit.UWP\Resources\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>HelixToolkit.UWP\Resources\psEffectBloomExtract.cso</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)helixtoolkit.uwp\2.16.1\contentFiles\any\any\HelixToolkit.UWP\Resources\psEffectGaussianBlurHorizontal.cso" Condition="Exists('$(NuGetPackageRoot)helixtoolkit.uwp\2.16.1\contentFiles\any\any\HelixToolkit.UWP\Resources\psEffectGaussianBlurHorizontal.cso')">
+      <NuGetPackageId>HelixToolkit.UWP</NuGetPackageId>
+      <NuGetPackageVersion>2.16.1</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>HelixToolkit.UWP\Resources\psEffectGaussianBlurHorizontal.cso</TargetPath>
+      <DestinationSubDirectory>HelixToolkit.UWP\Resources\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>HelixToolkit.UWP\Resources\psEffectGaussianBlurHorizontal.cso</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)helixtoolkit.uwp\2.16.1\contentFiles\any\any\HelixToolkit.UWP\Resources\psEffectGaussianBlurVertical.cso" Condition="Exists('$(NuGetPackageRoot)helixtoolkit.uwp\2.16.1\contentFiles\any\any\HelixToolkit.UWP\Resources\psEffectGaussianBlurVertical.cso')">
+      <NuGetPackageId>HelixToolkit.UWP</NuGetPackageId>
+      <NuGetPackageVersion>2.16.1</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>HelixToolkit.UWP\Resources\psEffectGaussianBlurVertical.cso</TargetPath>
+      <DestinationSubDirectory>HelixToolkit.UWP\Resources\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>HelixToolkit.UWP\Resources\psEffectGaussianBlurVertical.cso</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)helixtoolkit.uwp\2.16.1\contentFiles\any\any\HelixToolkit.UWP\Resources\psEffectMeshBorderHighlight.cso" Condition="Exists('$(NuGetPackageRoot)helixtoolkit.uwp\2.16.1\contentFiles\any\any\HelixToolkit.UWP\Resources\psEffectMeshBorderHighlight.cso')">
+      <NuGetPackageId>HelixToolkit.UWP</NuGetPackageId>
+      <NuGetPackageVersion>2.16.1</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>HelixToolkit.UWP\Resources\psEffectMeshBorderHighlight.cso</TargetPath>
+      <DestinationSubDirectory>HelixToolkit.UWP\Resources\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>HelixToolkit.UWP\Resources\psEffectMeshBorderHighlight.cso</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)helixtoolkit.uwp\2.16.1\contentFiles\any\any\HelixToolkit.UWP\Resources\psEffectMeshDiffuseXRayGrid.cso" Condition="Exists('$(NuGetPackageRoot)helixtoolkit.uwp\2.16.1\contentFiles\any\any\HelixToolkit.UWP\Resources\psEffectMeshDiffuseXRayGrid.cso')">
+      <NuGetPackageId>HelixToolkit.UWP</NuGetPackageId>
+      <NuGetPackageVersion>2.16.1</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>HelixToolkit.UWP\Resources\psEffectMeshDiffuseXRayGrid.cso</TargetPath>
+      <DestinationSubDirectory>HelixToolkit.UWP\Resources\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>HelixToolkit.UWP\Resources\psEffectMeshDiffuseXRayGrid.cso</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)helixtoolkit.uwp\2.16.1\contentFiles\any\any\HelixToolkit.UWP\Resources\psEffectMeshXRay.cso" Condition="Exists('$(NuGetPackageRoot)helixtoolkit.uwp\2.16.1\contentFiles\any\any\HelixToolkit.UWP\Resources\psEffectMeshXRay.cso')">
+      <NuGetPackageId>HelixToolkit.UWP</NuGetPackageId>
+      <NuGetPackageVersion>2.16.1</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>HelixToolkit.UWP\Resources\psEffectMeshXRay.cso</TargetPath>
+      <DestinationSubDirectory>HelixToolkit.UWP\Resources\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>HelixToolkit.UWP\Resources\psEffectMeshXRay.cso</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)helixtoolkit.uwp\2.16.1\contentFiles\any\any\HelixToolkit.UWP\Resources\psEffectMeshXRayGrid.cso" Condition="Exists('$(NuGetPackageRoot)helixtoolkit.uwp\2.16.1\contentFiles\any\any\HelixToolkit.UWP\Resources\psEffectMeshXRayGrid.cso')">
+      <NuGetPackageId>HelixToolkit.UWP</NuGetPackageId>
+      <NuGetPackageVersion>2.16.1</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>HelixToolkit.UWP\Resources\psEffectMeshXRayGrid.cso</TargetPath>
+      <DestinationSubDirectory>HelixToolkit.UWP\Resources\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>HelixToolkit.UWP\Resources\psEffectMeshXRayGrid.cso</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)helixtoolkit.uwp\2.16.1\contentFiles\any\any\HelixToolkit.UWP\Resources\psEffectOutlineQuad.cso" Condition="Exists('$(NuGetPackageRoot)helixtoolkit.uwp\2.16.1\contentFiles\any\any\HelixToolkit.UWP\Resources\psEffectOutlineQuad.cso')">
+      <NuGetPackageId>HelixToolkit.UWP</NuGetPackageId>
+      <NuGetPackageVersion>2.16.1</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>HelixToolkit.UWP\Resources\psEffectOutlineQuad.cso</TargetPath>
+      <DestinationSubDirectory>HelixToolkit.UWP\Resources\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>HelixToolkit.UWP\Resources\psEffectOutlineQuad.cso</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)helixtoolkit.uwp\2.16.1\contentFiles\any\any\HelixToolkit.UWP\Resources\psEffectOutlineQuadStencil.cso" Condition="Exists('$(NuGetPackageRoot)helixtoolkit.uwp\2.16.1\contentFiles\any\any\HelixToolkit.UWP\Resources\psEffectOutlineQuadStencil.cso')">
+      <NuGetPackageId>HelixToolkit.UWP</NuGetPackageId>
+      <NuGetPackageVersion>2.16.1</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>HelixToolkit.UWP\Resources\psEffectOutlineQuadStencil.cso</TargetPath>
+      <DestinationSubDirectory>HelixToolkit.UWP\Resources\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>HelixToolkit.UWP\Resources\psEffectOutlineQuadStencil.cso</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)helixtoolkit.uwp\2.16.1\contentFiles\any\any\HelixToolkit.UWP\Resources\psEffectOutlineQualFinal.cso" Condition="Exists('$(NuGetPackageRoot)helixtoolkit.uwp\2.16.1\contentFiles\any\any\HelixToolkit.UWP\Resources\psEffectOutlineQualFinal.cso')">
+      <NuGetPackageId>HelixToolkit.UWP</NuGetPackageId>
+      <NuGetPackageVersion>2.16.1</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>HelixToolkit.UWP\Resources\psEffectOutlineQualFinal.cso</TargetPath>
+      <DestinationSubDirectory>HelixToolkit.UWP\Resources\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>HelixToolkit.UWP\Resources\psEffectOutlineQualFinal.cso</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)helixtoolkit.uwp\2.16.1\contentFiles\any\any\HelixToolkit.UWP\Resources\psEffectOutlineSmooth.cso" Condition="Exists('$(NuGetPackageRoot)helixtoolkit.uwp\2.16.1\contentFiles\any\any\HelixToolkit.UWP\Resources\psEffectOutlineSmooth.cso')">
+      <NuGetPackageId>HelixToolkit.UWP</NuGetPackageId>
+      <NuGetPackageVersion>2.16.1</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>HelixToolkit.UWP\Resources\psEffectOutlineSmooth.cso</TargetPath>
+      <DestinationSubDirectory>HelixToolkit.UWP\Resources\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>HelixToolkit.UWP\Resources\psEffectOutlineSmooth.cso</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)helixtoolkit.uwp\2.16.1\contentFiles\any\any\HelixToolkit.UWP\Resources\psFXAA.cso" Condition="Exists('$(NuGetPackageRoot)helixtoolkit.uwp\2.16.1\contentFiles\any\any\HelixToolkit.UWP\Resources\psFXAA.cso')">
+      <NuGetPackageId>HelixToolkit.UWP</NuGetPackageId>
+      <NuGetPackageVersion>2.16.1</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>HelixToolkit.UWP\Resources\psFXAA.cso</TargetPath>
+      <DestinationSubDirectory>HelixToolkit.UWP\Resources\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>HelixToolkit.UWP\Resources\psFXAA.cso</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)helixtoolkit.uwp\2.16.1\contentFiles\any\any\HelixToolkit.UWP\Resources\psLUMA.cso" Condition="Exists('$(NuGetPackageRoot)helixtoolkit.uwp\2.16.1\contentFiles\any\any\HelixToolkit.UWP\Resources\psLUMA.cso')">
+      <NuGetPackageId>HelixToolkit.UWP</NuGetPackageId>
+      <NuGetPackageVersion>2.16.1</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>HelixToolkit.UWP\Resources\psLUMA.cso</TargetPath>
+      <DestinationSubDirectory>HelixToolkit.UWP\Resources\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>HelixToolkit.UWP\Resources\psLUMA.cso</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)helixtoolkit.uwp\2.16.1\contentFiles\any\any\HelixToolkit.UWP\Resources\psLine.cso" Condition="Exists('$(NuGetPackageRoot)helixtoolkit.uwp\2.16.1\contentFiles\any\any\HelixToolkit.UWP\Resources\psLine.cso')">
+      <NuGetPackageId>HelixToolkit.UWP</NuGetPackageId>
+      <NuGetPackageVersion>2.16.1</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>HelixToolkit.UWP\Resources\psLine.cso</TargetPath>
+      <DestinationSubDirectory>HelixToolkit.UWP\Resources\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>HelixToolkit.UWP\Resources\psLine.cso</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)helixtoolkit.uwp\2.16.1\contentFiles\any\any\HelixToolkit.UWP\Resources\psLineColor.cso" Condition="Exists('$(NuGetPackageRoot)helixtoolkit.uwp\2.16.1\contentFiles\any\any\HelixToolkit.UWP\Resources\psLineColor.cso')">
+      <NuGetPackageId>HelixToolkit.UWP</NuGetPackageId>
+      <NuGetPackageVersion>2.16.1</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>HelixToolkit.UWP\Resources\psLineColor.cso</TargetPath>
+      <DestinationSubDirectory>HelixToolkit.UWP\Resources\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>HelixToolkit.UWP\Resources\psLineColor.cso</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)helixtoolkit.uwp\2.16.1\contentFiles\any\any\HelixToolkit.UWP\Resources\psMeshBlinnPhong.cso" Condition="Exists('$(NuGetPackageRoot)helixtoolkit.uwp\2.16.1\contentFiles\any\any\HelixToolkit.UWP\Resources\psMeshBlinnPhong.cso')">
+      <NuGetPackageId>HelixToolkit.UWP</NuGetPackageId>
+      <NuGetPackageVersion>2.16.1</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>HelixToolkit.UWP\Resources\psMeshBlinnPhong.cso</TargetPath>
+      <DestinationSubDirectory>HelixToolkit.UWP\Resources\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>HelixToolkit.UWP\Resources\psMeshBlinnPhong.cso</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)helixtoolkit.uwp\2.16.1\contentFiles\any\any\HelixToolkit.UWP\Resources\psMeshBlinnPhongOIT.cso" Condition="Exists('$(NuGetPackageRoot)helixtoolkit.uwp\2.16.1\contentFiles\any\any\HelixToolkit.UWP\Resources\psMeshBlinnPhongOIT.cso')">
+      <NuGetPackageId>HelixToolkit.UWP</NuGetPackageId>
+      <NuGetPackageVersion>2.16.1</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>HelixToolkit.UWP\Resources\psMeshBlinnPhongOIT.cso</TargetPath>
+      <DestinationSubDirectory>HelixToolkit.UWP\Resources\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>HelixToolkit.UWP\Resources\psMeshBlinnPhongOIT.cso</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)helixtoolkit.uwp\2.16.1\contentFiles\any\any\HelixToolkit.UWP\Resources\psMeshBlinnPhongOITQuad.cso" Condition="Exists('$(NuGetPackageRoot)helixtoolkit.uwp\2.16.1\contentFiles\any\any\HelixToolkit.UWP\Resources\psMeshBlinnPhongOITQuad.cso')">
+      <NuGetPackageId>HelixToolkit.UWP</NuGetPackageId>
+      <NuGetPackageVersion>2.16.1</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>HelixToolkit.UWP\Resources\psMeshBlinnPhongOITQuad.cso</TargetPath>
+      <DestinationSubDirectory>HelixToolkit.UWP\Resources\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>HelixToolkit.UWP\Resources\psMeshBlinnPhongOITQuad.cso</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)helixtoolkit.uwp\2.16.1\contentFiles\any\any\HelixToolkit.UWP\Resources\psMeshClipPlaneBackface.cso" Condition="Exists('$(NuGetPackageRoot)helixtoolkit.uwp\2.16.1\contentFiles\any\any\HelixToolkit.UWP\Resources\psMeshClipPlaneBackface.cso')">
+      <NuGetPackageId>HelixToolkit.UWP</NuGetPackageId>
+      <NuGetPackageVersion>2.16.1</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>HelixToolkit.UWP\Resources\psMeshClipPlaneBackface.cso</TargetPath>
+      <DestinationSubDirectory>HelixToolkit.UWP\Resources\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>HelixToolkit.UWP\Resources\psMeshClipPlaneBackface.cso</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)helixtoolkit.uwp\2.16.1\contentFiles\any\any\HelixToolkit.UWP\Resources\psMeshClipPlaneQuad.cso" Condition="Exists('$(NuGetPackageRoot)helixtoolkit.uwp\2.16.1\contentFiles\any\any\HelixToolkit.UWP\Resources\psMeshClipPlaneQuad.cso')">
+      <NuGetPackageId>HelixToolkit.UWP</NuGetPackageId>
+      <NuGetPackageVersion>2.16.1</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>HelixToolkit.UWP\Resources\psMeshClipPlaneQuad.cso</TargetPath>
+      <DestinationSubDirectory>HelixToolkit.UWP\Resources\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>HelixToolkit.UWP\Resources\psMeshClipPlaneQuad.cso</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)helixtoolkit.uwp\2.16.1\contentFiles\any\any\HelixToolkit.UWP\Resources\psMeshColorStripe.cso" Condition="Exists('$(NuGetPackageRoot)helixtoolkit.uwp\2.16.1\contentFiles\any\any\HelixToolkit.UWP\Resources\psMeshColorStripe.cso')">
+      <NuGetPackageId>HelixToolkit.UWP</NuGetPackageId>
+      <NuGetPackageVersion>2.16.1</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>HelixToolkit.UWP\Resources\psMeshColorStripe.cso</TargetPath>
+      <DestinationSubDirectory>HelixToolkit.UWP\Resources\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>HelixToolkit.UWP\Resources\psMeshColorStripe.cso</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)helixtoolkit.uwp\2.16.1\contentFiles\any\any\HelixToolkit.UWP\Resources\psMeshDiffuseMapOIT.cso" Condition="Exists('$(NuGetPackageRoot)helixtoolkit.uwp\2.16.1\contentFiles\any\any\HelixToolkit.UWP\Resources\psMeshDiffuseMapOIT.cso')">
+      <NuGetPackageId>HelixToolkit.UWP</NuGetPackageId>
+      <NuGetPackageVersion>2.16.1</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>HelixToolkit.UWP\Resources\psMeshDiffuseMapOIT.cso</TargetPath>
+      <DestinationSubDirectory>HelixToolkit.UWP\Resources\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>HelixToolkit.UWP\Resources\psMeshDiffuseMapOIT.cso</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)helixtoolkit.uwp\2.16.1\contentFiles\any\any\HelixToolkit.UWP\Resources\psMeshPBR.cso" Condition="Exists('$(NuGetPackageRoot)helixtoolkit.uwp\2.16.1\contentFiles\any\any\HelixToolkit.UWP\Resources\psMeshPBR.cso')">
+      <NuGetPackageId>HelixToolkit.UWP</NuGetPackageId>
+      <NuGetPackageVersion>2.16.1</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>HelixToolkit.UWP\Resources\psMeshPBR.cso</TargetPath>
+      <DestinationSubDirectory>HelixToolkit.UWP\Resources\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>HelixToolkit.UWP\Resources\psMeshPBR.cso</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)helixtoolkit.uwp\2.16.1\contentFiles\any\any\HelixToolkit.UWP\Resources\psMeshPBROIT.cso" Condition="Exists('$(NuGetPackageRoot)helixtoolkit.uwp\2.16.1\contentFiles\any\any\HelixToolkit.UWP\Resources\psMeshPBROIT.cso')">
+      <NuGetPackageId>HelixToolkit.UWP</NuGetPackageId>
+      <NuGetPackageVersion>2.16.1</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>HelixToolkit.UWP\Resources\psMeshPBROIT.cso</TargetPath>
+      <DestinationSubDirectory>HelixToolkit.UWP\Resources\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>HelixToolkit.UWP\Resources\psMeshPBROIT.cso</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)helixtoolkit.uwp\2.16.1\contentFiles\any\any\HelixToolkit.UWP\Resources\psMeshXRay.cso" Condition="Exists('$(NuGetPackageRoot)helixtoolkit.uwp\2.16.1\contentFiles\any\any\HelixToolkit.UWP\Resources\psMeshXRay.cso')">
+      <NuGetPackageId>HelixToolkit.UWP</NuGetPackageId>
+      <NuGetPackageVersion>2.16.1</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>HelixToolkit.UWP\Resources\psMeshXRay.cso</TargetPath>
+      <DestinationSubDirectory>HelixToolkit.UWP\Resources\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>HelixToolkit.UWP\Resources\psMeshXRay.cso</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)helixtoolkit.uwp\2.16.1\contentFiles\any\any\HelixToolkit.UWP\Resources\psNormals.cso" Condition="Exists('$(NuGetPackageRoot)helixtoolkit.uwp\2.16.1\contentFiles\any\any\HelixToolkit.UWP\Resources\psNormals.cso')">
+      <NuGetPackageId>HelixToolkit.UWP</NuGetPackageId>
+      <NuGetPackageVersion>2.16.1</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>HelixToolkit.UWP\Resources\psNormals.cso</TargetPath>
+      <DestinationSubDirectory>HelixToolkit.UWP\Resources\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>HelixToolkit.UWP\Resources\psNormals.cso</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)helixtoolkit.uwp\2.16.1\contentFiles\any\any\HelixToolkit.UWP\Resources\psParticle.cso" Condition="Exists('$(NuGetPackageRoot)helixtoolkit.uwp\2.16.1\contentFiles\any\any\HelixToolkit.UWP\Resources\psParticle.cso')">
+      <NuGetPackageId>HelixToolkit.UWP</NuGetPackageId>
+      <NuGetPackageVersion>2.16.1</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>HelixToolkit.UWP\Resources\psParticle.cso</TargetPath>
+      <DestinationSubDirectory>HelixToolkit.UWP\Resources\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>HelixToolkit.UWP\Resources\psParticle.cso</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)helixtoolkit.uwp\2.16.1\contentFiles\any\any\HelixToolkit.UWP\Resources\psParticleOIT.cso" Condition="Exists('$(NuGetPackageRoot)helixtoolkit.uwp\2.16.1\contentFiles\any\any\HelixToolkit.UWP\Resources\psParticleOIT.cso')">
+      <NuGetPackageId>HelixToolkit.UWP</NuGetPackageId>
+      <NuGetPackageVersion>2.16.1</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>HelixToolkit.UWP\Resources\psParticleOIT.cso</TargetPath>
+      <DestinationSubDirectory>HelixToolkit.UWP\Resources\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>HelixToolkit.UWP\Resources\psParticleOIT.cso</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)helixtoolkit.uwp\2.16.1\contentFiles\any\any\HelixToolkit.UWP\Resources\psPlaneGrid.cso" Condition="Exists('$(NuGetPackageRoot)helixtoolkit.uwp\2.16.1\contentFiles\any\any\HelixToolkit.UWP\Resources\psPlaneGrid.cso')">
+      <NuGetPackageId>HelixToolkit.UWP</NuGetPackageId>
+      <NuGetPackageVersion>2.16.1</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>HelixToolkit.UWP\Resources\psPlaneGrid.cso</TargetPath>
+      <DestinationSubDirectory>HelixToolkit.UWP\Resources\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>HelixToolkit.UWP\Resources\psPlaneGrid.cso</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)helixtoolkit.uwp\2.16.1\contentFiles\any\any\HelixToolkit.UWP\Resources\psPoint.cso" Condition="Exists('$(NuGetPackageRoot)helixtoolkit.uwp\2.16.1\contentFiles\any\any\HelixToolkit.UWP\Resources\psPoint.cso')">
+      <NuGetPackageId>HelixToolkit.UWP</NuGetPackageId>
+      <NuGetPackageVersion>2.16.1</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>HelixToolkit.UWP\Resources\psPoint.cso</TargetPath>
+      <DestinationSubDirectory>HelixToolkit.UWP\Resources\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>HelixToolkit.UWP\Resources\psPoint.cso</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)helixtoolkit.uwp\2.16.1\contentFiles\any\any\HelixToolkit.UWP\Resources\psPositions.cso" Condition="Exists('$(NuGetPackageRoot)helixtoolkit.uwp\2.16.1\contentFiles\any\any\HelixToolkit.UWP\Resources\psPositions.cso')">
+      <NuGetPackageId>HelixToolkit.UWP</NuGetPackageId>
+      <NuGetPackageVersion>2.16.1</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>HelixToolkit.UWP\Resources\psPositions.cso</TargetPath>
+      <DestinationSubDirectory>HelixToolkit.UWP\Resources\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>HelixToolkit.UWP\Resources\psPositions.cso</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)helixtoolkit.uwp\2.16.1\contentFiles\any\any\HelixToolkit.UWP\Resources\psSSAO.cso" Condition="Exists('$(NuGetPackageRoot)helixtoolkit.uwp\2.16.1\contentFiles\any\any\HelixToolkit.UWP\Resources\psSSAO.cso')">
+      <NuGetPackageId>HelixToolkit.UWP</NuGetPackageId>
+      <NuGetPackageVersion>2.16.1</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>HelixToolkit.UWP\Resources\psSSAO.cso</TargetPath>
+      <DestinationSubDirectory>HelixToolkit.UWP\Resources\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>HelixToolkit.UWP\Resources\psSSAO.cso</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)helixtoolkit.uwp\2.16.1\contentFiles\any\any\HelixToolkit.UWP\Resources\psSSAOBlur.cso" Condition="Exists('$(NuGetPackageRoot)helixtoolkit.uwp\2.16.1\contentFiles\any\any\HelixToolkit.UWP\Resources\psSSAOBlur.cso')">
+      <NuGetPackageId>HelixToolkit.UWP</NuGetPackageId>
+      <NuGetPackageVersion>2.16.1</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>HelixToolkit.UWP\Resources\psSSAOBlur.cso</TargetPath>
+      <DestinationSubDirectory>HelixToolkit.UWP\Resources\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>HelixToolkit.UWP\Resources\psSSAOBlur.cso</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)helixtoolkit.uwp\2.16.1\contentFiles\any\any\HelixToolkit.UWP\Resources\psSSAOP1.cso" Condition="Exists('$(NuGetPackageRoot)helixtoolkit.uwp\2.16.1\contentFiles\any\any\HelixToolkit.UWP\Resources\psSSAOP1.cso')">
+      <NuGetPackageId>HelixToolkit.UWP</NuGetPackageId>
+      <NuGetPackageVersion>2.16.1</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>HelixToolkit.UWP\Resources\psSSAOP1.cso</TargetPath>
+      <DestinationSubDirectory>HelixToolkit.UWP\Resources\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>HelixToolkit.UWP\Resources\psSSAOP1.cso</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)helixtoolkit.uwp\2.16.1\contentFiles\any\any\HelixToolkit.UWP\Resources\psScreenDup.cso" Condition="Exists('$(NuGetPackageRoot)helixtoolkit.uwp\2.16.1\contentFiles\any\any\HelixToolkit.UWP\Resources\psScreenDup.cso')">
+      <NuGetPackageId>HelixToolkit.UWP</NuGetPackageId>
+      <NuGetPackageVersion>2.16.1</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>HelixToolkit.UWP\Resources\psScreenDup.cso</TargetPath>
+      <DestinationSubDirectory>HelixToolkit.UWP\Resources\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>HelixToolkit.UWP\Resources\psScreenDup.cso</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)helixtoolkit.uwp\2.16.1\contentFiles\any\any\HelixToolkit.UWP\Resources\psShadow.cso" Condition="Exists('$(NuGetPackageRoot)helixtoolkit.uwp\2.16.1\contentFiles\any\any\HelixToolkit.UWP\Resources\psShadow.cso')">
+      <NuGetPackageId>HelixToolkit.UWP</NuGetPackageId>
+      <NuGetPackageVersion>2.16.1</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>HelixToolkit.UWP\Resources\psShadow.cso</TargetPath>
+      <DestinationSubDirectory>HelixToolkit.UWP\Resources\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>HelixToolkit.UWP\Resources\psShadow.cso</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)helixtoolkit.uwp\2.16.1\contentFiles\any\any\HelixToolkit.UWP\Resources\psSkybox.cso" Condition="Exists('$(NuGetPackageRoot)helixtoolkit.uwp\2.16.1\contentFiles\any\any\HelixToolkit.UWP\Resources\psSkybox.cso')">
+      <NuGetPackageId>HelixToolkit.UWP</NuGetPackageId>
+      <NuGetPackageVersion>2.16.1</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>HelixToolkit.UWP\Resources\psSkybox.cso</TargetPath>
+      <DestinationSubDirectory>HelixToolkit.UWP\Resources\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>HelixToolkit.UWP\Resources\psSkybox.cso</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)helixtoolkit.uwp\2.16.1\contentFiles\any\any\HelixToolkit.UWP\Resources\psSprite.cso" Condition="Exists('$(NuGetPackageRoot)helixtoolkit.uwp\2.16.1\contentFiles\any\any\HelixToolkit.UWP\Resources\psSprite.cso')">
+      <NuGetPackageId>HelixToolkit.UWP</NuGetPackageId>
+      <NuGetPackageVersion>2.16.1</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>HelixToolkit.UWP\Resources\psSprite.cso</TargetPath>
+      <DestinationSubDirectory>HelixToolkit.UWP\Resources\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>HelixToolkit.UWP\Resources\psSprite.cso</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)helixtoolkit.uwp\2.16.1\contentFiles\any\any\HelixToolkit.UWP\Resources\psViewCube.cso" Condition="Exists('$(NuGetPackageRoot)helixtoolkit.uwp\2.16.1\contentFiles\any\any\HelixToolkit.UWP\Resources\psViewCube.cso')">
+      <NuGetPackageId>HelixToolkit.UWP</NuGetPackageId>
+      <NuGetPackageVersion>2.16.1</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>HelixToolkit.UWP\Resources\psViewCube.cso</TargetPath>
+      <DestinationSubDirectory>HelixToolkit.UWP\Resources\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>HelixToolkit.UWP\Resources\psViewCube.cso</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)helixtoolkit.uwp\2.16.1\contentFiles\any\any\HelixToolkit.UWP\Resources\psVolume.cso" Condition="Exists('$(NuGetPackageRoot)helixtoolkit.uwp\2.16.1\contentFiles\any\any\HelixToolkit.UWP\Resources\psVolume.cso')">
+      <NuGetPackageId>HelixToolkit.UWP</NuGetPackageId>
+      <NuGetPackageVersion>2.16.1</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>HelixToolkit.UWP\Resources\psVolume.cso</TargetPath>
+      <DestinationSubDirectory>HelixToolkit.UWP\Resources\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>HelixToolkit.UWP\Resources\psVolume.cso</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)helixtoolkit.uwp\2.16.1\contentFiles\any\any\HelixToolkit.UWP\Resources\psVolumeCube.cso" Condition="Exists('$(NuGetPackageRoot)helixtoolkit.uwp\2.16.1\contentFiles\any\any\HelixToolkit.UWP\Resources\psVolumeCube.cso')">
+      <NuGetPackageId>HelixToolkit.UWP</NuGetPackageId>
+      <NuGetPackageVersion>2.16.1</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>HelixToolkit.UWP\Resources\psVolumeCube.cso</TargetPath>
+      <DestinationSubDirectory>HelixToolkit.UWP\Resources\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>HelixToolkit.UWP\Resources\psVolumeCube.cso</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)helixtoolkit.uwp\2.16.1\contentFiles\any\any\HelixToolkit.UWP\Resources\psVolumeDiffuse.cso" Condition="Exists('$(NuGetPackageRoot)helixtoolkit.uwp\2.16.1\contentFiles\any\any\HelixToolkit.UWP\Resources\psVolumeDiffuse.cso')">
+      <NuGetPackageId>HelixToolkit.UWP</NuGetPackageId>
+      <NuGetPackageVersion>2.16.1</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>HelixToolkit.UWP\Resources\psVolumeDiffuse.cso</TargetPath>
+      <DestinationSubDirectory>HelixToolkit.UWP\Resources\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>HelixToolkit.UWP\Resources\psVolumeDiffuse.cso</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)helixtoolkit.uwp\2.16.1\contentFiles\any\any\HelixToolkit.UWP\Resources\psWireframe.cso" Condition="Exists('$(NuGetPackageRoot)helixtoolkit.uwp\2.16.1\contentFiles\any\any\HelixToolkit.UWP\Resources\psWireframe.cso')">
+      <NuGetPackageId>HelixToolkit.UWP</NuGetPackageId>
+      <NuGetPackageVersion>2.16.1</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>HelixToolkit.UWP\Resources\psWireframe.cso</TargetPath>
+      <DestinationSubDirectory>HelixToolkit.UWP\Resources\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>HelixToolkit.UWP\Resources\psWireframe.cso</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)helixtoolkit.uwp\2.16.1\contentFiles\any\any\HelixToolkit.UWP\Resources\psWireframeOIT.cso" Condition="Exists('$(NuGetPackageRoot)helixtoolkit.uwp\2.16.1\contentFiles\any\any\HelixToolkit.UWP\Resources\psWireframeOIT.cso')">
+      <NuGetPackageId>HelixToolkit.UWP</NuGetPackageId>
+      <NuGetPackageVersion>2.16.1</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>HelixToolkit.UWP\Resources\psWireframeOIT.cso</TargetPath>
+      <DestinationSubDirectory>HelixToolkit.UWP\Resources\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>HelixToolkit.UWP\Resources\psWireframeOIT.cso</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)helixtoolkit.uwp\2.16.1\contentFiles\any\any\HelixToolkit.UWP\Resources\vsBillboard.cso" Condition="Exists('$(NuGetPackageRoot)helixtoolkit.uwp\2.16.1\contentFiles\any\any\HelixToolkit.UWP\Resources\vsBillboard.cso')">
+      <NuGetPackageId>HelixToolkit.UWP</NuGetPackageId>
+      <NuGetPackageVersion>2.16.1</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>HelixToolkit.UWP\Resources\vsBillboard.cso</TargetPath>
+      <DestinationSubDirectory>HelixToolkit.UWP\Resources\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>HelixToolkit.UWP\Resources\vsBillboard.cso</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)helixtoolkit.uwp\2.16.1\contentFiles\any\any\HelixToolkit.UWP\Resources\vsBillboardInstancing.cso" Condition="Exists('$(NuGetPackageRoot)helixtoolkit.uwp\2.16.1\contentFiles\any\any\HelixToolkit.UWP\Resources\vsBillboardInstancing.cso')">
+      <NuGetPackageId>HelixToolkit.UWP</NuGetPackageId>
+      <NuGetPackageVersion>2.16.1</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>HelixToolkit.UWP\Resources\vsBillboardInstancing.cso</TargetPath>
+      <DestinationSubDirectory>HelixToolkit.UWP\Resources\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>HelixToolkit.UWP\Resources\vsBillboardInstancing.cso</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)helixtoolkit.uwp\2.16.1\contentFiles\any\any\HelixToolkit.UWP\Resources\vsBoneSkinningBasic.cso" Condition="Exists('$(NuGetPackageRoot)helixtoolkit.uwp\2.16.1\contentFiles\any\any\HelixToolkit.UWP\Resources\vsBoneSkinningBasic.cso')">
+      <NuGetPackageId>HelixToolkit.UWP</NuGetPackageId>
+      <NuGetPackageVersion>2.16.1</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>HelixToolkit.UWP\Resources\vsBoneSkinningBasic.cso</TargetPath>
+      <DestinationSubDirectory>HelixToolkit.UWP\Resources\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>HelixToolkit.UWP\Resources\vsBoneSkinningBasic.cso</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)helixtoolkit.uwp\2.16.1\contentFiles\any\any\HelixToolkit.UWP\Resources\vsCubeMap.cso" Condition="Exists('$(NuGetPackageRoot)helixtoolkit.uwp\2.16.1\contentFiles\any\any\HelixToolkit.UWP\Resources\vsCubeMap.cso')">
+      <NuGetPackageId>HelixToolkit.UWP</NuGetPackageId>
+      <NuGetPackageVersion>2.16.1</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>HelixToolkit.UWP\Resources\vsCubeMap.cso</TargetPath>
+      <DestinationSubDirectory>HelixToolkit.UWP\Resources\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>HelixToolkit.UWP\Resources\vsCubeMap.cso</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)helixtoolkit.uwp\2.16.1\contentFiles\any\any\HelixToolkit.UWP\Resources\vsMeshBatched.cso" Condition="Exists('$(NuGetPackageRoot)helixtoolkit.uwp\2.16.1\contentFiles\any\any\HelixToolkit.UWP\Resources\vsMeshBatched.cso')">
+      <NuGetPackageId>HelixToolkit.UWP</NuGetPackageId>
+      <NuGetPackageVersion>2.16.1</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>HelixToolkit.UWP\Resources\vsMeshBatched.cso</TargetPath>
+      <DestinationSubDirectory>HelixToolkit.UWP\Resources\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>HelixToolkit.UWP\Resources\vsMeshBatched.cso</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)helixtoolkit.uwp\2.16.1\contentFiles\any\any\HelixToolkit.UWP\Resources\vsMeshBatchedSSAO.cso" Condition="Exists('$(NuGetPackageRoot)helixtoolkit.uwp\2.16.1\contentFiles\any\any\HelixToolkit.UWP\Resources\vsMeshBatchedSSAO.cso')">
+      <NuGetPackageId>HelixToolkit.UWP</NuGetPackageId>
+      <NuGetPackageVersion>2.16.1</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>HelixToolkit.UWP\Resources\vsMeshBatchedSSAO.cso</TargetPath>
+      <DestinationSubDirectory>HelixToolkit.UWP\Resources\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>HelixToolkit.UWP\Resources\vsMeshBatchedSSAO.cso</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)helixtoolkit.uwp\2.16.1\contentFiles\any\any\HelixToolkit.UWP\Resources\vsMeshBatchedShadow.cso" Condition="Exists('$(NuGetPackageRoot)helixtoolkit.uwp\2.16.1\contentFiles\any\any\HelixToolkit.UWP\Resources\vsMeshBatchedShadow.cso')">
+      <NuGetPackageId>HelixToolkit.UWP</NuGetPackageId>
+      <NuGetPackageVersion>2.16.1</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>HelixToolkit.UWP\Resources\vsMeshBatchedShadow.cso</TargetPath>
+      <DestinationSubDirectory>HelixToolkit.UWP\Resources\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>HelixToolkit.UWP\Resources\vsMeshBatchedShadow.cso</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)helixtoolkit.uwp\2.16.1\contentFiles\any\any\HelixToolkit.UWP\Resources\vsMeshBatchedWireframe.cso" Condition="Exists('$(NuGetPackageRoot)helixtoolkit.uwp\2.16.1\contentFiles\any\any\HelixToolkit.UWP\Resources\vsMeshBatchedWireframe.cso')">
+      <NuGetPackageId>HelixToolkit.UWP</NuGetPackageId>
+      <NuGetPackageVersion>2.16.1</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>HelixToolkit.UWP\Resources\vsMeshBatchedWireframe.cso</TargetPath>
+      <DestinationSubDirectory>HelixToolkit.UWP\Resources\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>HelixToolkit.UWP\Resources\vsMeshBatchedWireframe.cso</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)helixtoolkit.uwp\2.16.1\contentFiles\any\any\HelixToolkit.UWP\Resources\vsMeshClipPlane.cso" Condition="Exists('$(NuGetPackageRoot)helixtoolkit.uwp\2.16.1\contentFiles\any\any\HelixToolkit.UWP\Resources\vsMeshClipPlane.cso')">
+      <NuGetPackageId>HelixToolkit.UWP</NuGetPackageId>
+      <NuGetPackageVersion>2.16.1</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>HelixToolkit.UWP\Resources\vsMeshClipPlane.cso</TargetPath>
+      <DestinationSubDirectory>HelixToolkit.UWP\Resources\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>HelixToolkit.UWP\Resources\vsMeshClipPlane.cso</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)helixtoolkit.uwp\2.16.1\contentFiles\any\any\HelixToolkit.UWP\Resources\vsMeshClipPlaneQuad.cso" Condition="Exists('$(NuGetPackageRoot)helixtoolkit.uwp\2.16.1\contentFiles\any\any\HelixToolkit.UWP\Resources\vsMeshClipPlaneQuad.cso')">
+      <NuGetPackageId>HelixToolkit.UWP</NuGetPackageId>
+      <NuGetPackageVersion>2.16.1</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>HelixToolkit.UWP\Resources\vsMeshClipPlaneQuad.cso</TargetPath>
+      <DestinationSubDirectory>HelixToolkit.UWP\Resources\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>HelixToolkit.UWP\Resources\vsMeshClipPlaneQuad.cso</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)helixtoolkit.uwp\2.16.1\contentFiles\any\any\HelixToolkit.UWP\Resources\vsMeshDefault.cso" Condition="Exists('$(NuGetPackageRoot)helixtoolkit.uwp\2.16.1\contentFiles\any\any\HelixToolkit.UWP\Resources\vsMeshDefault.cso')">
+      <NuGetPackageId>HelixToolkit.UWP</NuGetPackageId>
+      <NuGetPackageVersion>2.16.1</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>HelixToolkit.UWP\Resources\vsMeshDefault.cso</TargetPath>
+      <DestinationSubDirectory>HelixToolkit.UWP\Resources\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>HelixToolkit.UWP\Resources\vsMeshDefault.cso</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)helixtoolkit.uwp\2.16.1\contentFiles\any\any\HelixToolkit.UWP\Resources\vsMeshDepth.cso" Condition="Exists('$(NuGetPackageRoot)helixtoolkit.uwp\2.16.1\contentFiles\any\any\HelixToolkit.UWP\Resources\vsMeshDepth.cso')">
+      <NuGetPackageId>HelixToolkit.UWP</NuGetPackageId>
+      <NuGetPackageVersion>2.16.1</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>HelixToolkit.UWP\Resources\vsMeshDepth.cso</TargetPath>
+      <DestinationSubDirectory>HelixToolkit.UWP\Resources\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>HelixToolkit.UWP\Resources\vsMeshDepth.cso</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)helixtoolkit.uwp\2.16.1\contentFiles\any\any\HelixToolkit.UWP\Resources\vsMeshInstancing.cso" Condition="Exists('$(NuGetPackageRoot)helixtoolkit.uwp\2.16.1\contentFiles\any\any\HelixToolkit.UWP\Resources\vsMeshInstancing.cso')">
+      <NuGetPackageId>HelixToolkit.UWP</NuGetPackageId>
+      <NuGetPackageVersion>2.16.1</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>HelixToolkit.UWP\Resources\vsMeshInstancing.cso</TargetPath>
+      <DestinationSubDirectory>HelixToolkit.UWP\Resources\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>HelixToolkit.UWP\Resources\vsMeshInstancing.cso</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)helixtoolkit.uwp\2.16.1\contentFiles\any\any\HelixToolkit.UWP\Resources\vsMeshInstancingTessellation.cso" Condition="Exists('$(NuGetPackageRoot)helixtoolkit.uwp\2.16.1\contentFiles\any\any\HelixToolkit.UWP\Resources\vsMeshInstancingTessellation.cso')">
+      <NuGetPackageId>HelixToolkit.UWP</NuGetPackageId>
+      <NuGetPackageVersion>2.16.1</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>HelixToolkit.UWP\Resources\vsMeshInstancingTessellation.cso</TargetPath>
+      <DestinationSubDirectory>HelixToolkit.UWP\Resources\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>HelixToolkit.UWP\Resources\vsMeshInstancingTessellation.cso</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)helixtoolkit.uwp\2.16.1\contentFiles\any\any\HelixToolkit.UWP\Resources\vsMeshOutlinePass1.cso" Condition="Exists('$(NuGetPackageRoot)helixtoolkit.uwp\2.16.1\contentFiles\any\any\HelixToolkit.UWP\Resources\vsMeshOutlinePass1.cso')">
+      <NuGetPackageId>HelixToolkit.UWP</NuGetPackageId>
+      <NuGetPackageVersion>2.16.1</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>HelixToolkit.UWP\Resources\vsMeshOutlinePass1.cso</TargetPath>
+      <DestinationSubDirectory>HelixToolkit.UWP\Resources\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>HelixToolkit.UWP\Resources\vsMeshOutlinePass1.cso</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)helixtoolkit.uwp\2.16.1\contentFiles\any\any\HelixToolkit.UWP\Resources\vsMeshOutlineScreenQuad.cso" Condition="Exists('$(NuGetPackageRoot)helixtoolkit.uwp\2.16.1\contentFiles\any\any\HelixToolkit.UWP\Resources\vsMeshOutlineScreenQuad.cso')">
+      <NuGetPackageId>HelixToolkit.UWP</NuGetPackageId>
+      <NuGetPackageVersion>2.16.1</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>HelixToolkit.UWP\Resources\vsMeshOutlineScreenQuad.cso</TargetPath>
+      <DestinationSubDirectory>HelixToolkit.UWP\Resources\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>HelixToolkit.UWP\Resources\vsMeshOutlineScreenQuad.cso</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)helixtoolkit.uwp\2.16.1\contentFiles\any\any\HelixToolkit.UWP\Resources\vsMeshSSAO.cso" Condition="Exists('$(NuGetPackageRoot)helixtoolkit.uwp\2.16.1\contentFiles\any\any\HelixToolkit.UWP\Resources\vsMeshSSAO.cso')">
+      <NuGetPackageId>HelixToolkit.UWP</NuGetPackageId>
+      <NuGetPackageVersion>2.16.1</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>HelixToolkit.UWP\Resources\vsMeshSSAO.cso</TargetPath>
+      <DestinationSubDirectory>HelixToolkit.UWP\Resources\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>HelixToolkit.UWP\Resources\vsMeshSSAO.cso</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)helixtoolkit.uwp\2.16.1\contentFiles\any\any\HelixToolkit.UWP\Resources\vsMeshShadow.cso" Condition="Exists('$(NuGetPackageRoot)helixtoolkit.uwp\2.16.1\contentFiles\any\any\HelixToolkit.UWP\Resources\vsMeshShadow.cso')">
+      <NuGetPackageId>HelixToolkit.UWP</NuGetPackageId>
+      <NuGetPackageVersion>2.16.1</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>HelixToolkit.UWP\Resources\vsMeshShadow.cso</TargetPath>
+      <DestinationSubDirectory>HelixToolkit.UWP\Resources\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>HelixToolkit.UWP\Resources\vsMeshShadow.cso</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)helixtoolkit.uwp\2.16.1\contentFiles\any\any\HelixToolkit.UWP\Resources\vsMeshTessellation.cso" Condition="Exists('$(NuGetPackageRoot)helixtoolkit.uwp\2.16.1\contentFiles\any\any\HelixToolkit.UWP\Resources\vsMeshTessellation.cso')">
+      <NuGetPackageId>HelixToolkit.UWP</NuGetPackageId>
+      <NuGetPackageVersion>2.16.1</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>HelixToolkit.UWP\Resources\vsMeshTessellation.cso</TargetPath>
+      <DestinationSubDirectory>HelixToolkit.UWP\Resources\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>HelixToolkit.UWP\Resources\vsMeshTessellation.cso</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)helixtoolkit.uwp\2.16.1\contentFiles\any\any\HelixToolkit.UWP\Resources\vsMeshWireframe.cso" Condition="Exists('$(NuGetPackageRoot)helixtoolkit.uwp\2.16.1\contentFiles\any\any\HelixToolkit.UWP\Resources\vsMeshWireframe.cso')">
+      <NuGetPackageId>HelixToolkit.UWP</NuGetPackageId>
+      <NuGetPackageVersion>2.16.1</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>HelixToolkit.UWP\Resources\vsMeshWireframe.cso</TargetPath>
+      <DestinationSubDirectory>HelixToolkit.UWP\Resources\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>HelixToolkit.UWP\Resources\vsMeshWireframe.cso</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)helixtoolkit.uwp\2.16.1\contentFiles\any\any\HelixToolkit.UWP\Resources\vsParticle.cso" Condition="Exists('$(NuGetPackageRoot)helixtoolkit.uwp\2.16.1\contentFiles\any\any\HelixToolkit.UWP\Resources\vsParticle.cso')">
+      <NuGetPackageId>HelixToolkit.UWP</NuGetPackageId>
+      <NuGetPackageVersion>2.16.1</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>HelixToolkit.UWP\Resources\vsParticle.cso</TargetPath>
+      <DestinationSubDirectory>HelixToolkit.UWP\Resources\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>HelixToolkit.UWP\Resources\vsParticle.cso</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)helixtoolkit.uwp\2.16.1\contentFiles\any\any\HelixToolkit.UWP\Resources\vsPlaneGrid.cso" Condition="Exists('$(NuGetPackageRoot)helixtoolkit.uwp\2.16.1\contentFiles\any\any\HelixToolkit.UWP\Resources\vsPlaneGrid.cso')">
+      <NuGetPackageId>HelixToolkit.UWP</NuGetPackageId>
+      <NuGetPackageVersion>2.16.1</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>HelixToolkit.UWP\Resources\vsPlaneGrid.cso</TargetPath>
+      <DestinationSubDirectory>HelixToolkit.UWP\Resources\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>HelixToolkit.UWP\Resources\vsPlaneGrid.cso</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)helixtoolkit.uwp\2.16.1\contentFiles\any\any\HelixToolkit.UWP\Resources\vsPoint.cso" Condition="Exists('$(NuGetPackageRoot)helixtoolkit.uwp\2.16.1\contentFiles\any\any\HelixToolkit.UWP\Resources\vsPoint.cso')">
+      <NuGetPackageId>HelixToolkit.UWP</NuGetPackageId>
+      <NuGetPackageVersion>2.16.1</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>HelixToolkit.UWP\Resources\vsPoint.cso</TargetPath>
+      <DestinationSubDirectory>HelixToolkit.UWP\Resources\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>HelixToolkit.UWP\Resources\vsPoint.cso</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)helixtoolkit.uwp\2.16.1\contentFiles\any\any\HelixToolkit.UWP\Resources\vsPointShadow.cso" Condition="Exists('$(NuGetPackageRoot)helixtoolkit.uwp\2.16.1\contentFiles\any\any\HelixToolkit.UWP\Resources\vsPointShadow.cso')">
+      <NuGetPackageId>HelixToolkit.UWP</NuGetPackageId>
+      <NuGetPackageVersion>2.16.1</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>HelixToolkit.UWP\Resources\vsPointShadow.cso</TargetPath>
+      <DestinationSubDirectory>HelixToolkit.UWP\Resources\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>HelixToolkit.UWP\Resources\vsPointShadow.cso</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)helixtoolkit.uwp\2.16.1\contentFiles\any\any\HelixToolkit.UWP\Resources\vsSSAO.cso" Condition="Exists('$(NuGetPackageRoot)helixtoolkit.uwp\2.16.1\contentFiles\any\any\HelixToolkit.UWP\Resources\vsSSAO.cso')">
+      <NuGetPackageId>HelixToolkit.UWP</NuGetPackageId>
+      <NuGetPackageVersion>2.16.1</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>HelixToolkit.UWP\Resources\vsSSAO.cso</TargetPath>
+      <DestinationSubDirectory>HelixToolkit.UWP\Resources\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>HelixToolkit.UWP\Resources\vsSSAO.cso</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)helixtoolkit.uwp\2.16.1\contentFiles\any\any\HelixToolkit.UWP\Resources\vsScreenDup.cso" Condition="Exists('$(NuGetPackageRoot)helixtoolkit.uwp\2.16.1\contentFiles\any\any\HelixToolkit.UWP\Resources\vsScreenDup.cso')">
+      <NuGetPackageId>HelixToolkit.UWP</NuGetPackageId>
+      <NuGetPackageVersion>2.16.1</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>HelixToolkit.UWP\Resources\vsScreenDup.cso</TargetPath>
+      <DestinationSubDirectory>HelixToolkit.UWP\Resources\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>HelixToolkit.UWP\Resources\vsScreenDup.cso</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)helixtoolkit.uwp\2.16.1\contentFiles\any\any\HelixToolkit.UWP\Resources\vsScreenDupCursor.cso" Condition="Exists('$(NuGetPackageRoot)helixtoolkit.uwp\2.16.1\contentFiles\any\any\HelixToolkit.UWP\Resources\vsScreenDupCursor.cso')">
+      <NuGetPackageId>HelixToolkit.UWP</NuGetPackageId>
+      <NuGetPackageVersion>2.16.1</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>HelixToolkit.UWP\Resources\vsScreenDupCursor.cso</TargetPath>
+      <DestinationSubDirectory>HelixToolkit.UWP\Resources\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>HelixToolkit.UWP\Resources\vsScreenDupCursor.cso</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)helixtoolkit.uwp\2.16.1\contentFiles\any\any\HelixToolkit.UWP\Resources\vsScreenQuad.cso" Condition="Exists('$(NuGetPackageRoot)helixtoolkit.uwp\2.16.1\contentFiles\any\any\HelixToolkit.UWP\Resources\vsScreenQuad.cso')">
+      <NuGetPackageId>HelixToolkit.UWP</NuGetPackageId>
+      <NuGetPackageVersion>2.16.1</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>HelixToolkit.UWP\Resources\vsScreenQuad.cso</TargetPath>
+      <DestinationSubDirectory>HelixToolkit.UWP\Resources\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>HelixToolkit.UWP\Resources\vsScreenQuad.cso</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)helixtoolkit.uwp\2.16.1\contentFiles\any\any\HelixToolkit.UWP\Resources\vsSkybox.cso" Condition="Exists('$(NuGetPackageRoot)helixtoolkit.uwp\2.16.1\contentFiles\any\any\HelixToolkit.UWP\Resources\vsSkybox.cso')">
+      <NuGetPackageId>HelixToolkit.UWP</NuGetPackageId>
+      <NuGetPackageVersion>2.16.1</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>HelixToolkit.UWP\Resources\vsSkybox.cso</TargetPath>
+      <DestinationSubDirectory>HelixToolkit.UWP\Resources\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>HelixToolkit.UWP\Resources\vsSkybox.cso</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)helixtoolkit.uwp\2.16.1\contentFiles\any\any\HelixToolkit.UWP\Resources\vsSprite.cso" Condition="Exists('$(NuGetPackageRoot)helixtoolkit.uwp\2.16.1\contentFiles\any\any\HelixToolkit.UWP\Resources\vsSprite.cso')">
+      <NuGetPackageId>HelixToolkit.UWP</NuGetPackageId>
+      <NuGetPackageVersion>2.16.1</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>HelixToolkit.UWP\Resources\vsSprite.cso</TargetPath>
+      <DestinationSubDirectory>HelixToolkit.UWP\Resources\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>HelixToolkit.UWP\Resources\vsSprite.cso</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)helixtoolkit.uwp\2.16.1\contentFiles\any\any\HelixToolkit.UWP\Resources\vsVolume.cso" Condition="Exists('$(NuGetPackageRoot)helixtoolkit.uwp\2.16.1\contentFiles\any\any\HelixToolkit.UWP\Resources\vsVolume.cso')">
+      <NuGetPackageId>HelixToolkit.UWP</NuGetPackageId>
+      <NuGetPackageVersion>2.16.1</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>HelixToolkit.UWP\Resources\vsVolume.cso</TargetPath>
+      <DestinationSubDirectory>HelixToolkit.UWP\Resources\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>HelixToolkit.UWP\Resources\vsVolume.cso</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)helixtoolkit.uwp\2.16.1\contentFiles\any\any\HelixToolkit.UWP\Themes\Generic.xaml" Condition="Exists('$(NuGetPackageRoot)helixtoolkit.uwp\2.16.1\contentFiles\any\any\HelixToolkit.UWP\Themes\Generic.xaml')">
+      <NuGetPackageId>HelixToolkit.UWP</NuGetPackageId>
+      <NuGetPackageVersion>2.16.1</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>HelixToolkit.UWP\Themes\Generic.xaml</TargetPath>
+      <DestinationSubDirectory>HelixToolkit.UWP\Themes\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>HelixToolkit.UWP\Themes\Generic.xaml</Link>
+    </None>
+  </ItemGroup>
+  <ImportGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <Import Project="$(NuGetPackageRoot)uno.ui.runtime.webassembly\3.7.3\buildTransitive\Uno.UI.Runtime.WebAssembly.props" Condition="Exists('$(NuGetPackageRoot)uno.ui.runtime.webassembly\3.7.3\buildTransitive\Uno.UI.Runtime.WebAssembly.props')" />
+    <Import Project="$(NuGetPackageRoot)uno.ui.webassembly\3.7.3\build\Uno.UI.WebAssembly.props" Condition="Exists('$(NuGetPackageRoot)uno.ui.webassembly\3.7.3\build\Uno.UI.WebAssembly.props')" />
+  </ImportGroup>
+  <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <PkgUno_Wasm_Bootstrap_DevServer Condition=" '$(PkgUno_Wasm_Bootstrap_DevServer)' == '' ">C:\Users\ikaplan\.nuget\packages\uno.wasm.bootstrap.devserver\1.3.4</PkgUno_Wasm_Bootstrap_DevServer>
+    <PkgUno_Wasm_Bootstrap Condition=" '$(PkgUno_Wasm_Bootstrap)' == '' ">C:\Users\ikaplan\.nuget\packages\uno.wasm.bootstrap\1.3.4</PkgUno_Wasm_Bootstrap>
+    <PkgUno_UI Condition=" '$(PkgUno_UI)' == '' ">C:\Users\ikaplan\.nuget\packages\uno.ui\3.7.3</PkgUno_UI>
+    <PkgUno_UI_RemoteControl Condition=" '$(PkgUno_UI_RemoteControl)' == '' ">C:\Users\ikaplan\.nuget\packages\uno.ui.remotecontrol\3.7.3</PkgUno_UI_RemoteControl>
+  </PropertyGroup>
+</Project>
