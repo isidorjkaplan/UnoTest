@@ -82,6 +82,7 @@ namespace MyApp
                     break;
             }
             Ellipse.Fill = new SolidColorBrush(color);
+            ColorText.Text = colorName;
         }
     }
 }
