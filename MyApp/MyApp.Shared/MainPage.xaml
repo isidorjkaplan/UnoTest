@@ -1,18 +1,15 @@
 <Page
-    x:Class="MyApp.MainPage"
-    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
-    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-    xmlns:local="using:MyApp"
-    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
-    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-    mc:Ignorable="d">
+  x:Class="MyApp.MainPage"
+  xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+  xmlns:local="using:MyApp"
+  xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+  xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+  mc:Ignorable="d">
 
 		<StackPanel Name='layoutRoot'>
-    <Slider x:Name="WidthSlider" Header="Width" Width="200" Minimum="30" Maximum="400" Value="100"
-        ValueChanged="{x:Bind OnSlider}"/>
-    <Slider x:Name="HeightSlider" Header="Height" Width="200" Minimum="30" Maximum="400" Value="100"
-        ValueChanged="{x:Bind OnSlider}"/>
-    <Button Content="click"
-            Click="{x:Bind OnClick}" />
-</StackPanel>
+      <Slider x:Name="WidthSlider" Header="Width" Width="200" Minimum="30" Maximum="400" Value="100" ValueChanged="{x:Bind OnSlider}"/>
+      <Slider x:Name="HeightSlider" Header="Height" Width="200" Minimum="30" Maximum="400" Value="100" ValueChanged="{x:Bind OnSlider}"/>
+      <Button Content="click" Click="{x:Bind OnClick}" />
+    </StackPanel>
 </Page>
