@@ -10,6 +10,18 @@
 		<StackPanel Name='layoutRoot'>
       <Slider x:Name="WidthSlider" Header="Width" Width="200" Minimum="30" Maximum="400" Value="100" ValueChanged="{x:Bind OnSlider}"/>
       <Slider x:Name="HeightSlider" Header="Height" Width="200" Minimum="30" Maximum="400" Value="100" ValueChanged="{x:Bind OnSlider}"/>
+      <ColorPicker x:Name="myColorPicker"/>
+      
+      <ComboBox x:Name="colorComboBox" Width="200"
+              Header="Colors" PlaceholderText="Pick a color"
+              SelectionChanged="ColorComboBox_SelectionChanged">
+        <x:String>Blue</x:String>
+        <x:String>Green</x:String>
+        <x:String>Red</x:String>
+        <x:String>Yellow</x:String>
+      </ComboBox>
+
+      <Ellipse x:Name="Ellipse" Fill="SteelBlue" Height="{Binding ElementName=HeightSlider, Path=Value}" Width="{Binding ElementName=WidthSlider, Path=Value}" />
       <Button Content="click" Click="{x:Bind OnClick}" />
     </StackPanel>
 </Page>

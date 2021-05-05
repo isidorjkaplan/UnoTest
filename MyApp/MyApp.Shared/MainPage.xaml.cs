@@ -37,11 +37,11 @@ namespace MyApp
         {
             this.InitializeComponent();
             //How to build an Elipse
-            var ellipse1 = new Ellipse();
+            /*var ellipse1 = new Ellipse();
             ellipse1.Fill = new SolidColorBrush(Windows.UI.Colors.SteelBlue);
             ellipse1.Width = WidthSlider.Value;
             ellipse1.Height =  HeightSlider.Value;
-            layoutRoot.Children.Add(ellipse1);
+            layoutRoot.Children.Add(ellipse1);*/
         }
         private void OnClick()
         {
@@ -54,9 +54,34 @@ namespace MyApp
         {
             //var dt = DateTime.Now.ToString();
             //txt.Text = dt;
-            var ellipse = ((Ellipse)layoutRoot.Children[layoutRoot.Children.Count - 1]);
-            ellipse.Width = WidthSlider.Value;
-            ellipse.Height = HeightSlider.Value;
+            //var ellipse = ((Ellipse)layoutRoot.Children[layoutRoot.Children.Count - 1]);
+            //Ellipse.Width = WidthSlider.Value;
+            //Ellipse.Height = HeightSlider.Value;
+        }
+
+        private void ColorComboBox_SelectionChanged(object sender, SelectionChangedEventArgs e) 
+        {
+            string colorName = e.AddedItems[0].ToString();
+            Color color;
+            switch (colorName)
+            {
+                case "Yellow":
+                    color = Colors.Yellow;
+                    break;
+                case "Green":
+                    color = Colors.Green;
+                    break;
+                case "Blue":
+                    color = Colors.Blue;
+                    break;
+                case "Red":
+                    color = Colors.Red;
+                    break;
+                default:
+                    color = Colors.SteelBlue;
+                    break;
+            }
+            Ellipse.Fill = new SolidColorBrush(color);
         }
     }
 }
